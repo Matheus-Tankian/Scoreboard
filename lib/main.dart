@@ -75,9 +75,9 @@ class _AppState extends State<App> {
   }
 
   void _setStopwatchText(){
-    _stopwatchText = (_stopWatch.elapsed.inMinutes%60).toString().padLeft(2,'0') + ':'+
-        (_stopWatch.elapsed.inSeconds%60).toString().padLeft(2,'0') + ':' +
-        (_stopWatch.elapsed.inMilliseconds%20).toString().padLeft(2,'0');
+    _stopwatchText = (_stopWatch.elapsed.inHours).toString().padLeft(2,'0') + ':'+
+        (_stopWatch.elapsed.inMinutes%60).toString().padLeft(2,'0') + ':' +
+        (_stopWatch.elapsed.inSeconds%60).toString().padLeft(2,'0');
   }
 
 
