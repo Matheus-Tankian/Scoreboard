@@ -1,4 +1,4 @@
-# stopwatch_2
+# stopwatch
 
 A new Flutter application.
 
